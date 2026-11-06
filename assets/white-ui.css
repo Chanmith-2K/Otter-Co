@@ -1,0 +1,26 @@
+/* Otter & Co. shared usability and accessibility refinements */
+:root{--bg:#fff!important;--paper:#fff!important;--line:#e4e4e4;--muted:#555}
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+body{background:#fff!important;color:#151515}
+header{background:#fff!important;border-color:#e6e6e6}
+main{background:#fff}
+.section,section[id],h3[id]{scroll-margin-top:110px}
+.panel,.item,.related-card,.question{background:#fff;border-color:#e1e1e1}
+.notice{background:#fafafa;border:1px solid #e2e2e2;color:#454545}
+.eyebrow,.crumb{color:#555}
+.lead,.panel p,.panel li,.step p,.fine{color:#505050}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #242424;outline-offset:3px}
+a,button{touch-action:manipulation}
+.links{flex-wrap:wrap}
+.links .nav-cta{white-space:nowrap}
+.pricebox{background:#fff;color:#111;border:1px solid #ddd;box-shadow:0 12px 40px #00000008}
+.pricebox .muted,.pricebox .eyebrow{color:#555!important}
+.pricebox .tile{color:#111;border-color:#dedede;background:#fff}
+.pricebox .tile span{color:#555}
+.pricebox .btn.white{background:#111;color:white;border-color:#111}
+.pricebox .btn.white:hover{background:#333}
+.page-jumps{position:relative}
+.page-jumps a{background:#fff;border-color:#dedede}
+.related-card:hover{border-color:#111;transform:translateY(-2px)}
+details{border-color:#e1e1e1}
+@media(max-width:800px){.links .nav-cta{min-height:42px;display:inline-flex;align-items:center}.page-jumps a{min-height:40px;display:inline-flex;align-items:center}.hero{gap:20px}.pricebox{box-shadow:none}.shell{padding-inline:20px}}
